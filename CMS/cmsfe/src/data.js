@@ -6,29 +6,29 @@ const JsonData={
             {
                 Name:'S.no',
                 // ValueField:''
-                Width:10
+                Width:'6%'
             //  Alignment:
             },
             {
                 Name:'Name',
                 // ValueField:''
-                Width:30
+                Width:'30%'
             //  Alignment:
             }, {
                 Name:'Project',
                 // ValueField:''
-                Width:10
+                Width:'30%'
             //  Alignment:
             },
              {
                 Name:'Start Date',
                 // ValueField:''
-                Width:10
+                Width:'17%'
             //  Alignment:
             }, {
                 Name:'End Date',
                 // ValueField:''
-                Width:10
+                Width:'17%'
             //  Alignment:
             },
         ],

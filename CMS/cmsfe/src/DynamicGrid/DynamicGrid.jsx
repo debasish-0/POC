@@ -10,9 +10,10 @@ const tableWidth={
     <div className="center">
     <Table celled style={tableWidth}>
       <Table.Header  >
+         {/* TODO: textAlign : center */}
         <Table.Row textAlign="center">
           {JsonData.Columns.map((data) => (
-            <Table.HeaderCell key={data.Name} >{data.Name}</Table.HeaderCell>
+            <Table.HeaderCell key={data.Name} style={{width:data.Width}} >{data.Name}</Table.HeaderCell>
           ))}
         </Table.Row>
       </Table.Header>
